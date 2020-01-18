@@ -14,6 +14,8 @@
 		8338C20E2383AFB60041DE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8338C20C2383AFB60041DE09 /* LaunchScreen.storyboard */; };
 		8338C2192383AFB60041DE09 /* DATA_TRANSFER_THRU_SEGUESTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338C2182383AFB60041DE09 /* DATA_TRANSFER_THRU_SEGUESTests.swift */; };
 		8338C2242383AFB60041DE09 /* DATA_TRANSFER_THRU_SEGUESUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338C2232383AFB60041DE09 /* DATA_TRANSFER_THRU_SEGUESUITests.swift */; };
+		8338C2322383B47E0041DE09 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338C2312383B47E0041DE09 /* RedViewController.swift */; };
+		8338C2342383B4910041DE09 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338C2332383B4910041DE09 /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8338C21F2383AFB60041DE09 /* DATA TRANSFER THRU SEGUESUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DATA TRANSFER THRU SEGUESUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8338C2232383AFB60041DE09 /* DATA_TRANSFER_THRU_SEGUESUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DATA_TRANSFER_THRU_SEGUESUITests.swift; sourceTree = "<group>"; };
 		8338C2252383AFB60041DE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8338C2312383B47E0041DE09 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		8338C2332383B4910041DE09 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				8338C2032383AFAC0041DE09 /* AppDelegate.swift */,
 				8338C2052383AFAC0041DE09 /* ViewController.swift */,
+				8338C2312383B47E0041DE09 /* RedViewController.swift */,
+				8338C2332383B4910041DE09 /* GreenViewController.swift */,
 				8338C2072383AFAC0041DE09 /* Main.storyboard */,
 				8338C20A2383AFB60041DE09 /* Assets.xcassets */,
 				8338C20C2383AFB60041DE09 /* LaunchScreen.storyboard */,
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8338C2342383B4910041DE09 /* GreenViewController.swift in Sources */,
 				8338C2062383AFAC0041DE09 /* ViewController.swift in Sources */,
+				8338C2322383B47E0041DE09 /* RedViewController.swift in Sources */,
 				8338C2042383AFAC0041DE09 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
